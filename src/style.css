@@ -1,0 +1,25 @@
+ @font-face {
+   font-family: 'MyFont';
+   src:  url('./assets/fonts/OpenSans-Regular.ttf') format('ttf'),
+         url('./assets/fonts/OpenSans-ExtraBold.ttf') format('ttf'),
+         url('./assets/fonts/OpenSans-Light.ttf') format('ttf'),
+         url('./assets/fonts/OpenSans-Bold.ttf') format('ttf');
+
+   font-weight: 600;
+   font-style: normal;
+ }
+
+  .hello {
+    color: red;
+    font-family: 'MyFont';
+    
+  }
+ .logo{
+    content: url('./assets/icon.png');
+    display: block;
+    width: 100px;
+  }
+
+  *{
+    font-family: 'MyFont';
+  }
